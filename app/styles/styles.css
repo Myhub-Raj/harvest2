@@ -169,7 +169,7 @@ body {
    @keyframes anim-3 {
   0%, 6.66% { left: -100%; opacity: 0; }
    74.96%, 91.62% { left: 6%; opacity: 1; }
-   100% { left: 110%; opacity: 0; }
+  100% { left: 0%; opacity: 0; }
  }
 
 
