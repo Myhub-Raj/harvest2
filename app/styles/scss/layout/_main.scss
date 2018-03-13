@@ -1,3 +1,32 @@
+// Scss structure
+@mixin button {
+    @include border-radius(5px);
+    @include transition(all, 0.3s, ease);
+    text-align: center;
+    margin: 0 auto;
+    padding: 11.42857px 30px;
+    color: $colorWhite;
+    border: 1px solid $colorWhite;
+    font-family: $fontCursiveFormal;
+    font-size: $fontSizeBody + 12;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+
+    &:hover {
+        background: $colorWhite;
+        color: $colorContrast3;
+    }
+
+
+body {
+	background: #fff;
+	p {
+		font-family: Helvetica, Arial, sans-serif;
+	}
+}
+
+
 font-size: $f-base-lg;
   }
 
